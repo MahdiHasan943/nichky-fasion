@@ -1,0 +1,83 @@
+.beginner{
+    writing-mode: vertical-lr;
+    rotate: 180deg;
+    letter-spacing: 5px;
+    
+    font-size: 35px;
+    font-weight: 500;
+    /* font-family: 'Poppins', sans-serif; */
+
+    font-family: 'Montserrat', sans-serif;
+
+    padding: 5px 0px;
+
+}
+
+.pro{
+    
+    font-family: 'Poppins', sans-serif;
+  color: white;
+  font-weight: 700;
+
+  font-size: 14px;
+
+}
+
+.bord{
+ border: 2px solid white;
+ border-right: none;
+ padding: 20px 70px;
+ margin-top: 70px;
+}
+.bord:hover{
+
+    background: #B960FD;
+    border: 2px solid #B960FD;
+
+
+}
+.editon1{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    letter-spacing: 3px;
+    font-size: 15px;
+    font-weight: 700;
+}
+.edition{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-size: 25px;
+    font-weight: 700;
+    letter-spacing: 5px;
+
+
+
+}
+
+.start{color: white;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 1px;
+
+}
+.lorem{
+
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 1px;
+}
+
+.read{
+    font-family: 'Poppins', sans-serif;
+
+    font-weight: 700;
+
+}

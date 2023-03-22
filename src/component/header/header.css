@@ -1,0 +1,28 @@
+.sign{
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    background-color: white;
+    padding: 5px 20px;
+
+}
+
+.untrack{
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    margin: 0 40px;
+}
+.logo{
+    font-size: 20px;
+    font-weight: 900;
+    font-family: 'Poppins', sans-serif;
+    margin-left: 10px;
+    color: white;
+}
+.track{
+    padding-bottom: 4px;
+    border-bottom: 2px solid ;
+}
