@@ -5,11 +5,15 @@ import heroBg from '../../images/Circle.png'
 import heroImage from '../../images/Image.png'
 import herodot from '../../images/UI.png'
 import second from '../../images/box1.png'
+import leftArrow from '../../images/ar1111.png'
+import rightArrow from '../../images/ar2222.png'
+
 
 
 const Hero = () => {
   return (
-      <div className='pl-[60px] lg:flex '>
+      <>
+       <div className='pl-[60px] relative py-4 lg:py-0 lg:flex '>
           {/* start */}
 
           {/* 1 */}
@@ -31,7 +35,7 @@ const Hero = () => {
           </div>
           {/* 2 */}
 
-          <div className="justify-center w-full  mx-auto lg:w-[42%]">
+          <div className="justify-center  w-full  mx-auto lg:w-[42%]">
               <div className='lg:flex mx-auto justify-center items-center'>
                   <img className='mx-auto lg:mx-0 lg:mr-[-20px] mb-[-400px]  lg:mb-[-680px]' src={heroBg} alt="" />
                  
@@ -39,7 +43,13 @@ const Hero = () => {
               <div className="flex justify-center">
               <img className='mx-auto ' src={heroImage} alt="" />
              </div>
-              
+              <div className="flex justify-between">
+
+                  <img className='lg:absolute lg:bottom-[30px]  w-[100px] h-[100px]' src={rightArrow} alt="" />
+                  <img className='lg:absolute lg:bottom-[30px]  right-[30%] w-[100px] h-[100px]' src={leftArrow} alt="" />
+
+
+              </div>
           </div>
           {/* 3 */}
 
@@ -69,7 +79,35 @@ const Hero = () => {
           </div>
 
           {/* end */}
-    </div>
+      </div>
+      
+      <div className="grid shaDow py-20 grid-cols-1 mx-auto gap-6 sm:grid-cols-3">
+              <div className="flex items-center justify-center">
+                  <p className='plus text-[#B960FD]'>+</p>
+                  <p className='number'>150</p>
+                  <div className="mx-5 items-center">
+                      <p className='happy'>HAPPY </p>
+                      <p className='student'>STUDENTS</p>
+                  </div>
+              </div>
+              <div className="flex items-center justify-center">
+                  <p className='plus text-[#B960FD]'>+</p>
+                  <p className='number'>50</p>
+                  <div className="mx-5 items-center">
+                      <p className='happy'>CERTIFIED </p>
+                      <p className='student'>COURSES</p>
+                  </div>
+              </div>
+              <div className="flex items-center justify-center">
+                  <p className='plus text-[#B960FD]'>+</p>
+                  <p className='number'>1000</p>
+                  <div className="mx-5 items-center">
+                      <p className='happy'>AWARDS </p>
+                      <p className='student'>RECEIVED</p>
+                  </div>
+              </div>
+          </div>
+      </>
   )
 }
 
